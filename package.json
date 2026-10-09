@@ -1,0 +1,18 @@
+{
+  "name": "trip-fund-homework",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Solidity TripFund homework with Foundry tests and a transparent proxy V2 bonus",
+  "scripts": {
+    "check": "bash scripts/check.sh"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "5.4.0",
+    "@openzeppelin/contracts-upgradeable": "5.4.0",
+    "@openzeppelin/foundry-upgrades": "0.4.2",
+    "@openzeppelin/upgrades-core": "1.46.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
